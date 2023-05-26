@@ -30,6 +30,7 @@
     height: 100%;
     display: table;
     float: left;
+    padding-top: 12px;
 }
 
 /* .logo_container h1{
@@ -66,7 +67,7 @@
     display: table-cell;
     vertical-align: middle;
     height: 100%;
-    color: white;
+    color: #F1C043;
     font-family: 'Oceanwide';
     font-size: 16px;
 }
