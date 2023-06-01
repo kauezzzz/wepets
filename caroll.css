@@ -1,0 +1,25 @@
+
+
+body {
+    background-color: #5D0A90;
+}
+
+.sobre {
+    color: white;
+}
+
+.loja {
+    color: white;
+}
+
+
+.contato {
+    color: white;
+    justify-content: end;
+    flex-direction: row;
+}
+
+.principais {
+    color: white;
+}
+
