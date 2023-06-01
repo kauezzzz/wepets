@@ -1,0 +1,68 @@
+@font-face {
+    font-family:'Oceanwide';
+    src: url('fonts/California Type Foundry - Oceanwide-Semibold.ttf') format('truetype'), url('fonts/California Type Foundry - Oceanwide-Semibold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family:'Oceanwide2';
+    src: url('fonts/California Type Foundry - Oceanwide-SemiboldOblique.ttf') format('truetype'), url('fonts/California Type Foundry - Oceanwide-SemiboldOblique.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.h1, h2, h3, h4, p {
+    font-family: 'Oceanwide';
+}
+
+body {
+    background-color: #5D0A90;
+}
+
+.sobre {
+    color: white;
+    font-size: 20px;
+}
+
+.loja {
+    color: #F1C043;
+    font-size: 18px;
+}
+
+.contato {
+    color: #F1C043;
+    justify-content: end;
+    flex-direction: row;
+    padding-top: 70px;
+    font-size: 22px;
+}
+
+.principais {
+    color: #F1C043;
+    font-size: 25px;
+}
+.inferior {
+    display: flex;
+}
+.lateral {
+    margin-left: 50px;
+    display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.we {
+    color: #FFF2BC;
+}
+.pets {
+    color: #F1C043;
+}
+.tit{
+    display: flex;
+    align-items: center;
+    font-size: 165px;
+}
+.somos{
+    margin-left: 20px;
+    font-size: 30px;
+    color: #fff;
+}
