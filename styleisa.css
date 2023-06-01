@@ -16,8 +16,8 @@ header {
     background: #9B7ABB;
 }
 h3{
-  margin-top: 10px;
-  font-size: 20px;
+  margin-top: 30px;
+  font-size: 25px;
 }
 
 .logo img{
@@ -113,6 +113,9 @@ h4 {
 }
 
 .pri{
+  margin-top: 20px;
+}
+.pri2{
   margin-top: 20px;
 }
  p {
