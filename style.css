@@ -20,7 +20,7 @@ body{
     height: 100%;
     position: absolute;
     opacity: 0;
-    transition: opacity 0.5s ease-in-out;
+    transition: opacity 1.0s ease-in-out;
 }
   
 .slide img {
@@ -72,6 +72,16 @@ body{
 
 }
 
+a {
+    font-family: 'Oceanwide';
+    text-decoration: none;
+    color: #FFF2BC;
+  }
+  p {
+    font-family: 'Oceanwide';
+    color: #FFF2BC;
+  }
+
 .col-4:hover {
   transform: translateY(-5px);
 }
@@ -107,7 +117,7 @@ body{
 
 h4 {
     font-family: 'Oceanwide';
-    color: #555;
+    color: #F1C043;
     font-weight: normal;
 }
 
