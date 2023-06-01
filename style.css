@@ -5,6 +5,12 @@
   -webkit-box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'Oceanwide';
+  src: url('California Type Foundry - Oceanwide-Semibold') format(opentype); 
+  font-weight: normal;
+  font-style: normal;
+}
 
 body {
   margin: 0;
@@ -24,7 +30,9 @@ body {
 body,
 input,
 button {
-  font-family: 'Muli', sans-serif, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Oceanwide';
+  font-size: 3em;
+  font-weight: normal;
   outline: none;
 }
 img{
