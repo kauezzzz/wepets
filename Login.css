@@ -5,6 +5,12 @@
   -webkit-box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'Oceanwide';
+  src: url('California Type Foundry - Oceanwide-Semibold') format(opentype);
+  font-weight: normal;
+  font-style: normal;
+}
 
 body {
   margin: 0;
@@ -24,7 +30,7 @@ body {
 body,
 input,
 button {
-  font-family: 'Muli', sans-serif, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Oceanwide';
   outline: none;
 }
 img{
@@ -38,6 +44,7 @@ img{
 }
 
 a {
+  font-family: 'Oceanwide';
   color: inherit;
   outline: none;
   text-decoration: none;
@@ -82,6 +89,7 @@ a:hover {
 .form-body .title {
   margin: 0;
   text-align: center;
+  font-family: 'Oceanwide';
   font-weight: normal;
 }
 
@@ -107,6 +115,7 @@ a:hover {
   height: 100%;
   padding: 15px;
   color: #e6e6e6;
+  font-family: 'Oceanwide';
   font-weight: bold;
   text-decoration: none;
   transition: background-color .3s;
