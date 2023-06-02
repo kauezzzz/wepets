@@ -38,6 +38,7 @@ h3 {
 }
 
 .logo img {
+  margin-left: 130px;
   width: 80px;
 }
 
@@ -47,13 +48,14 @@ h3 {
 }
 
 .search input {
-  padding: 5px;
+  padding: 4px;
   border-radius: 15px;
   background-color: #F1C043;
   border: none;
 }
 
 .iconify {
+  margin-left: 60px;
   width: 60px;
 }
 
@@ -62,6 +64,8 @@ h3 {
 }
 
 #MenuItems {
+  margin-left: 250px;
+  font-size: 10px;
   display: flex;
   padding: 0 45px;
   justify-content: space-between;
