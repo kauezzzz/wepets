@@ -1,3 +1,11 @@
+@font-face {
+  font-family:'Love';
+  src: url('fonts/Mf Love Song.ttf') format('truetype'), url('fonts/Mf Love Song.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +13,8 @@
 }
 
 body {
-  font-family: "Poopins", sans-serif;
+  font-family: 'Love', cursive;
+  /* font-family: "Poopins", sans-serif; */
 }
 
 header {
