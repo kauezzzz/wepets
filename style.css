@@ -118,17 +118,11 @@ size: 100%;
 }
 
 /* produtos clienpets */
-.small-container {
-    max-width: 1080px;
-    margin: auto;
-    padding-left: 25px;
-    padding-right: 25px;
-}
 .col-4 {
     flex-basis: 25%;
     padding: 10px;
     min-width: 200px;
-    margin-bottom: 50px;
+    margin-bottom: 15px;
     transition: transform 0.5s;
 }
 .col-4 img{
@@ -153,14 +147,18 @@ a {
   font-size: 14px;
 
 }
-.rating .fa, .fa-solid, .fa-regular {
-  color: #ff523b;
+
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .title {
     font-family: 'Oceanwide';
     text-align: center;
-    margin: 0 auto 80px;
+    margin-top: 20px;
     position: relative;
     line-height: 60px;
     color: #F1C043;
