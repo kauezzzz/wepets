@@ -16,115 +16,55 @@ header {
   border-bottom-left-radius: 15px;
   background: #9B7ABB;
 }
-
-h3 {
-  margin-top: 10px;
-  font-size: 20px;
+h3{
+margin-top: 10px;
+font-size: 15px;
 }
 
-.logo img {
-  margin-left: 130px;
+.logo img{
+  margin-left: 150px;
   width: 80px;
 }
-
-.logo a {
-  display: block;
-  text-decoration: none;
-}
-
 .search input {
-  padding: 4px;
-  border-radius: 15px;
-  background-color: #F1C043;
-  border: none;
+padding: 5px;
+border-radius: 15px;
+background-color: #F1C043;
+border: none;
 }
-
-.iconify {
-  margin-left: 60px;
-  width: 60px;
+.iconify{
+width: 60px;
 }
-
-.iconify2 {
-  width: 150px;
+.iconify2{
+width: 150px;
 }
-
+.iconify3{
+  justify-content: right;
+margin-right: 180px;
+}
 #MenuItems {
-  margin-left: 250px;
-  font-size: 10px;
-  display: flex;
-  padding: 0 45px;
-  justify-content: space-between;
+display: flex;
+padding: 0 45px;
+justify-content: space-between;
 }
-
 #MenuItems a {
-  text-decoration: none;
-  padding: 0 20px;
-  color: #F1C043;
-  font-size: 18px;
-  font-weight: bolder;
-  list-style: none;
+text-decoration: none;
+padding: 0 20px;
+color:  #F1C043;
+font-size: 18px;
+font-weight: bolder;
+list-style: none;
 }
-
-#MenuItems a:hover {
-  color: #FFF;
-}
-
-.search input:focus {
-  outline: none;
-}
-
 a {
-  list-style: none;
+list-style: none;
+}
+ol { 
+counter-reset: item;
+list-style-type: none;
 }
 
-ol {
-  counter-reset: item;
-  list-style-type: none;
-}
-
-li {
-  display: block;
-}
-
-.search,
-input {
-  padding: 5px;
-  border-radius: 15px;
-  background-color: #F1C043;
-  border: none;
-  color: #FFF !important;
-}
-
-.search {
-  display: flex;
-  align-items: center;
-}
-
-.iconify.iconify--gridicons:hover {
-  color: #FFF !important;
-}
-
-/* Responsividade */
-
-@media (max-width: 768px) {
-  .logo img {
-    width: 60px;
-    padding-bottom: 20px;
-  }
-
-  header {
-    flex-direction: column;
-  }
-
-  #MenuItems {
-    flex-direction: column;
-    align-items: center;
-    margin-top: 10px;
-  }
-
-  .login {
-    margin-top: 10px;
-  }
+li { 
+  font-size: 15px;
+display: block; 
 }
 
 .slides-container{
