@@ -31,8 +31,10 @@
     height: 100%;
     display: table;
     float: left;
-    padding-left: 80px;
-    margin-left: -315px;
+    padding-top: 10px;
+    margin-left: -20px;
+    /* padding-left: 80px; */
+    /* margin-left: -315px; */
     
 }
 
@@ -92,18 +94,35 @@ section {
 }
 
 .avaliacoes {
+    display: flex;
+    /* justify-content:space-evenly; */
+    
+    justify-content: baseline;
+    align-items: flex-end;
+}
+
+.info {
+    margin-left: 40px;
+}
+
+.prod {
+    margin-left: 5px;
+}
+
+.avaliacoes p {
+    padding: 0;
     width: 30px;
     text-align: left;
-    margin-left: 58%;
-    display: flex;
-    justify-content:space-evenly;
-    align-items: center;
+    margin-left: 520px;
+    
 }
 .avaliacoes img{
-    padding-left: 130px;
-    text-align: left;
-    width: 240px;
-    margin-top: 15px;
+    /* padding-left: 100px; */
+    /* text-align: left; */
+    width: 120px;
+    height: 22px;
+    margin-top: 5px;
+    margin-left: 75px;
 }
 
 .destaq {
