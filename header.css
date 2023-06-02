@@ -1,10 +1,15 @@
 @font-face {
-  font-family:'Love';
-  src: url('fonts/Mf Love Song.ttf') format('truetype'), url('fonts/Mf Love Song.otf') format('opentype');
+  font-family:'Oceanwide';
+  src: url('fonts/California Type Foundry - Oceanwide-Semibold.ttf') format('truetype'), url('fonts/California Type Foundry - Oceanwide-Semibold.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
-
+@font-face {
+  font-family:'Oceanwide2';
+  src: url('fonts/California Type Foundry - Oceanwide-SemiboldOblique.ttf') format('truetype'), url('fonts/California Type Foundry - Oceanwide-SemiboldOblique.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 * {
   margin: 0;
@@ -13,8 +18,8 @@
 }
 
 body {
-  font-family: 'Love', cursive;
-  /* font-family: "Poopins", sans-serif; */
+  font-family: 'Oceanwide';
+
 }
 
 header {
