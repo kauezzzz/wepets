@@ -26,10 +26,10 @@ font-size: 15px;
   width: 80px;
 }
 .search input {
-padding: 5px;
-border-radius: 15px;
-background-color: #F1C043;
-border: none;
+  padding: 5px;
+  border-radius: 15px;
+  background-color: #F1C043;
+  border: none;
 }
 .iconify{
 width: 60px;
