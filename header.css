@@ -1,3 +1,16 @@
+@font-face {
+  font-family:'Oceanwide';
+  src: url('fonts/California Type Foundry - Oceanwide-Semibold.ttf') format('truetype'), url('fonts/California Type Foundry - Oceanwide-Semibold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family:'Oceanwide2';
+  src: url('fonts/California Type Foundry - Oceanwide-SemiboldOblique.ttf') format('truetype'), url('fonts/California Type Foundry - Oceanwide-SemiboldOblique.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +18,8 @@
 }
 
 body {
-  font-family: "Poopins", sans-serif;
+  font-family: 'Oceanwide';
+
 }
 
 header {
