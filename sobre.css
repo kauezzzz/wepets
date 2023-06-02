@@ -11,6 +11,61 @@
     font-style: normal;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background: #9B7ABB;
+}
+h3{
+    font-family: 'Oceanwide';
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.logo img{
+    width: 80px;
+}
+.search input {
+  padding: 5px;
+  border-radius: 15px;
+  background-color: #F1C043;
+  border: none;
+}
+.iconify{
+  width: 60px;
+}
+.iconify2{
+  width: 150px;
+}
+#MenuItems {
+  display: flex;
+  padding: 0 45px;
+  justify-content: space-between;
+}
+#MenuItems a {
+  text-decoration: none;
+  padding: 0 20px;
+  color:  #F1C043;
+  font-size: 18px;
+  font-weight: bolder;
+  list-style: none;
+}
+a {
+  list-style: none;
+}
+ol { 
+  counter-reset: item;
+  list-style-type: none;
+}
+
+li { 
+  display: block; 
+}
+
 .h1, h2, h3, h4, p {
     font-family: 'Oceanwide';
 }
@@ -51,6 +106,7 @@ flex-direction: column;
 justify-content: space-between;
 }
 .we {
+    font-style: italic;
     color: #FFF2BC;
 }
 .pets {
