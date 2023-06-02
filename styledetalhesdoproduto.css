@@ -157,7 +157,7 @@ h2 {
     text-align: center;
     color: #fff;
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 18px;
     
 }
 .tamanho {
@@ -168,7 +168,7 @@ h2 {
 p {
 padding: 12px;
 padding-left: 25px;
-font-size: 20px;
+font-size: 16px;
 color: #fff;
 }
 .promo {
@@ -177,15 +177,40 @@ color: #fff;
     align-items: center;
 }
 .promo img {
-width: 100px;
+width: 80px;
 margin-top: 5px;
 }
 
-.Precos {
+.precos {
     display: flex;
     justify-content:space-evenly;
     align-items: center;
     color: #fff;
     font-size: 20px;
     margin-top: -10px;
+ }
+
+ @media (max-width: 650px) {
+    .detalhe {
+        margin: 2%;
+        padding: 2%;
+        flex-basis: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .destaq {
+        flex-basis: 50%;
+    }
+    .informações-prod {
+        flex-basis: 30%;
+    }
+    .promo img {
+        width: 30%;
+    }
+    .precos {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
  }
