@@ -1,27 +1,44 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-body {
-    font-family: "Oceanwide", sans-serif;
+@font-face {
+  font-family:'Oceanwide';
+  src: url('fonts/California Type Foundry - Oceanwide-Semibold.ttf') format('truetype'), url('fonts/California Type Foundry - Oceanwide-Semibold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
 }
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    background: #9B7ABB;
-}
-h3{
-  margin-top: 30px;
-  font-size: 25px;
+@font-face {
+  font-family:'Oceanwide2';
+  src: url('fonts/California Type Foundry - Oceanwide-SemiboldOblique.ttf') format('truetype'), url('fonts/California Type Foundry - Oceanwide-SemiboldOblique.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
 }
 
-.logo img{
-    width: 80px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Oceanwide';
+
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background: #9B7ABB;
+}
+
+h3 {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.logo img {
+  width: 80px;
 }
 
 .logo a {
@@ -30,36 +47,30 @@ h3{
 }
 
 .search input {
-  padding: 1px;
+  padding: 5px;
   border-radius: 15px;
   background-color: #F1C043;
   border: none;
 }
-.iconify{
+
+.iconify {
   width: 60px;
-  height: auto;
-  color: #ffffff;
 }
-.iconify2{
-  width: 60px;
-  height: auto;
-  color: #ffffff;
+
+.iconify2 {
+  width: 150px;
 }
-/* .iconify3{
-  width: 125px;
-  height: auto;
-  color: #ffffff;
-  align-items: center;
-} */
+
 #MenuItems {
   display: flex;
   padding: 0 45px;
   justify-content: space-between;
 }
+
 #MenuItems a {
   text-decoration: none;
   padding: 0 20px;
-  color:  #F1C043;
+  color: #F1C043;
   font-size: 18px;
   font-weight: bolder;
   list-style: none;
@@ -68,6 +79,7 @@ h3{
 #MenuItems a:hover {
   color: #FFF;
 }
+
 .search input:focus {
   outline: none;
 }
@@ -75,14 +87,16 @@ h3{
 a {
   list-style: none;
 }
-ol { 
+
+ol {
   counter-reset: item;
   list-style-type: none;
 }
 
-li { 
-  display: block; 
+li {
+  display: block;
 }
+
 .search,
 input {
   padding: 5px;
@@ -100,6 +114,8 @@ input {
 .iconify.iconify--gridicons:hover {
   color: #FFF !important;
 }
+
+/* Responsividade */
 
 @media (max-width: 768px) {
   .logo img {
@@ -121,7 +137,6 @@ input {
     margin-top: 10px;
   }
 }
-
 .tt {
   display: flex;
 
