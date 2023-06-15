@@ -6,10 +6,10 @@
     font-family: 'Poppins', sans-serif;
 }
 footer{
-    position: fixed;
+    position: relative;
     bottom: 0px;
     width: 100%;
-    background: #580eb3;
+    background: #9b7abb;
 }
 
 img{
@@ -144,7 +144,7 @@ img{
 .bottom .center{
     padding: 5px;
     font-size: 15px;
-    background: #580eb3;
+    background: #9b7abb;;
     text-align: center;
 }
 .bottom .center span{
