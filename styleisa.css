@@ -128,18 +128,21 @@ input {
   color: #FFF2BC;
 }
 .prod2{
+  font-style: italic;
   color: #F1C043;
 }
 .prod3 {
   color: #FFF2BC;
 }
 .prod4 {
+  font-style: italic;
   color: #F1C043;
 }
 .prod5 {
   color: #FFF2BC;
 }
 .prod6 {
+  font-style: italic;
   color: #F1C043;
 }
 .prod7 {
@@ -147,6 +150,10 @@ input {
   padding-left: 20px;
 }
 .prod8 {
+  font-style: italic;
+  color: #F1C043;
+}
+.span {
   color: #F1C043;
 }
 
