@@ -12,12 +12,18 @@
     text-decoration: none;
     box-sizing: border-box;
 }
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #5D0A90;
+}
 
 .header {
     width: 100%;
     height: 131px;
     display: block;
     background-color: #9B7ABB;
+
 }
 
 .inner_header{
@@ -32,25 +38,8 @@
     display: table;
     float: left;
     padding-top: 10px;
-    margin-left: -20px;
-    /* padding-left: 80px; */
-    /* margin-left: -315px; */
-    
+    margin-left: -20px;  
 }
-
-/* .logo_container h1{
-    color: beige;
-    height: 100%;
-    display: table-cell;
-    vertical-align: middle;
-    font-family: 'Oceanwide';
-    font-size: 32px;
-    font-weight: 200;
-}
-
-.logo_container h1 span{
-    font-weight: 800;
-} */
 
 .navigation{
     float: right;
@@ -83,6 +72,7 @@ section {
     background-color: #67109d;
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 .inf {
     color: #FFF2BC;
@@ -113,23 +103,19 @@ section {
     padding: 0;
     width: 30px;
     text-align: left;
-    margin-left: 715px;
+    margin-left: 48%;
     
 }
 .avaliacoes img{
-    /* padding-left: 100px; */
-    /* text-align: left; */
     width: 120px;
     height: 22px;
-    margin-top: 5px;
-    margin-left: 75px;
+    margin-left: 50px;
 }
-
 .destaq {
     flex-basis: 40%;
     margin: 20px;
     width: 200px;
-    height: 500px;
+    height: 600px;
     background-color: #F9BC22;
     border-radius: 20px;
     border: 5px solid #fff;
@@ -141,7 +127,7 @@ section {
     flex-basis: 50%;
     margin: 20px;
     width: 200px;
-    height: 500px;
+    height: 600px;
     background-color: #BC5FF5;
     border-radius: 20px;
 }
@@ -163,7 +149,7 @@ h2 {
 .tamanho {
     padding-left: 13px;
     text-align: left;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 p {
 padding: 12px;
@@ -177,7 +163,7 @@ color: #fff;
     align-items: center;
 }
 .promo img {
-width: 80px;
+width: 20%;
 margin-top: 5px;
 }
 
@@ -186,11 +172,83 @@ margin-top: 5px;
     justify-content:space-evenly;
     align-items: center;
     color: #fff;
-    font-size: 20px;
+    font-size: 100%;
     margin-top: -10px;
  }
 
+ .carrinho {
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #5D0A90;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 20px;
+  }
+  
+  .carrinho h3 {
+    margin-top: 10px;
+  }
+  
+  .carrinho .iconify {
+    margin-top: 10px;
+  }
+  
+ .carrinho:hover {
+
+    color: #fff;
+    background-color: #9943cf;
+
+ }
+ .iconify {
+    font-size: 50px; /* Tamanho do ícone em pixels */
+  }
+  
+
+ @media (max-width: 1100px) {
+    p {
+        padding: 8px;
+        }
+        .carrinho h3 {
+            font-size:90%
+        
+         }
+         .iconify {
+            font-size: 35px; /* Tamanho do ícone em pixels */
+          }
+ }
+ @media (max-width: 830px) {
+        .carrinho h3 {
+            padding-left: 5%;
+        
+         }
+         .iconify {
+            font-size: 30px; /* Tamanho do ícone em pixels */
+          }
+ }
  @media (max-width: 650px) {
+    section {
+        height: 1500px;
+    }
+    .avaliacoes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .avaliacoes p{
+        margin: 10px 0;
+        margin-right: 45px;
+        
+    }
+    .avaliacoes img{
+        margin: 0;
+        
+    }
     .detalhe {
         margin: 2%;
         padding: 2%;
@@ -198,19 +256,43 @@ margin-top: 5px;
         display: flex;
         align-items: center;
         flex-direction: column;
+        justify-content: center;
+        height: 60%;
     }
     .destaq {
         flex-basis: 50%;
     }
     .informações-prod {
         flex-basis: 30%;
+        height: 700px;
+        padding-bottom: 5%;
     }
+ 
     .promo img {
         width: 30%;
     }
     .precos {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
+        justify-content: space-around;
     }
+
+    .inf-texto {
+        text-align: center;
+    }
+    .destaq {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .informações-prod {
+        margin: 0;
+        margin-top: 40px;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .carrinho {
+        margin: 20px auto;
+    }
+
  }
