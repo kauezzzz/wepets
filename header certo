@@ -1,0 +1,33 @@
+<header>
+  <div class="logo">
+    <a href="index.html">
+      <img src="sprint/logomarca.png" alt="logo">
+    </a>
+  </div>
+  <div class="search">
+    <input type="text" placeholder="Pesquisar...">
+    <span class="iconify" data-icon="iconamoon:search-bold" style="color: white;" data-width="22"></span>
+  </div>
+
+  <nav>
+    <ul id="MenuItems">
+      <li><a href="isabelle.html">produtos</a></li>
+      <li><a href="sobre.html">sobre</a></li>
+      <li><a href="Login.html">login</a></li>
+    </ul>
+  </nav>
+  <div class="login">
+    <a href=""><span class="iconify" data-icon="gridicons:user" style="color: #f1c043;" data-width="42"></span></a>
+  </div>
+</header>
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background: #9B7ABB;
+  }
