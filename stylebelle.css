@@ -26,7 +26,7 @@ header {
 display: flex;
 justify-content: space-between;
 align-items: center;
-/* padding: 1px; */
+padding: 10px;
 border-bottom-right-radius: 15px;
 border-bottom-left-radius: 15px;
 background: #9B7ABB;
@@ -137,14 +137,17 @@ header {
   .prod{
     color: #FFF2BC;
     padding-left: 25px;
+    margin-bottom: 40px;
   }
   .prod2{
     color: #F1C043;
+    
   }
   .prod3 {
     color: #FFF2BC;
+    padding-top: 5px;
     padding-left: 25px;
-    padding-top: 20px;
+    margin-bottom: 40px;
   }
   .prod4 {
     color: #F1C043;
@@ -275,164 +278,168 @@ header {
     font-family: 'Oceanwide', sans-serif;
 }
 footer{
-    position: relative;
-    bottom: 0px;
-    width: 100%;
-    background: #9B7ABB;
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  background: #9b7abb;
 }
 
-img{
-    height: 120px;
-    width: 120px;
-    margin-top: 40px;
-    margin: 10px;
+.footerimg{
+  height: 120px;
+  width: 120px;
+  margin-top: 40px;
+  margin: 10px;
 }
 .icon-fb {
 
-    align-items: center;
-    display: flex;
-    /* padding-top: -10px; */
+  align-items: center;
+  display: flex;
+  padding-top: -10px;
 }
 
 .main-content{
-    display: flex;
+  display: flex;
 }
 .main-content .box{
-    flex-basis: 50%;
-    padding: 10px 20px;
+  flex-basis: 50%;
+  padding: 10px 20px;
 }
 .box h2{
-    font-size: 18px;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: #FFF;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #FFF;
+  margin-top: 20px
 }
 .box .content{
-    margin: 20px 0 0 0;
-    position: relative;
+  margin: 20px 0 0 0;
+  position: relative;
+  margin-top: 20px
 }
 .box .content:after{
-    position: absolute;
-    content: '';
-    width: 15%;
-    height: 2px;
-    background: #f1c043;
-    top: -10px;
+  position: absolute;
+  content: '';
+  width: 15%;
+  height: 2px;
+  background: #f1c043;
+  top: -10px;
+  /* margin-top: 20px */
 }
 .box .content:before{
-    position: absolute;
-    content: '';
-    height: 2px;
-    width: 100%;
-    background:#f1c043;
-    top: -10px;
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 100%;
+  background:#f1c043;
+  top: -10px;
+  /* margin-top: 20px */
 }
 .left .content .social{
-    margin: 20px 0 0 0;
+  margin: 20px 0 0 0;
 }
 .left .content .social a{
-    padding: 0 2px;
+  padding: 0 2px;
 }
 .left .content .social a span{
-    width: 40px;
-    height: 40px;
-    background: #f1c043;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 5px;
-    font-size: 18px;
-    transition: 0.3s;
+  width: 40px;
+  height: 40px;
+  background: #f1c043;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: 0.3s;
 }
 .left .content .social a span:hover{
-    background: #f1c043;
+  background: #f1c043;
 }
 .left .content p{
-    text-align: justify;
-    color: #FFF;
+  text-align: justify;
+  color: #FFF;
 }
 .center .content .fas{
-    font-size: 23px;
-    background: #f1c043;
-    width: 45px;
-    height: 45px ;
-    line-height: 45px;
-    text-align: center;
-    border-radius: 50%;
-    transition: 0.3s;
-    cursor: pointer;
+  font-size: 23px;
+  background: #f1c043;
+  width: 45px;
+  height: 45px ;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
 }
 .center .content .fas:hover{
-    background: #f1c043;
+  background: #f1c043;
 }
 .center .content .text{
-    font-size: 17px;
-    font-weight: 500;
-    padding-left: 10px;
-    color: #FFF;
+  font-size: 17px;
+  font-weight: 500;
+  padding-left: 10px;
+  color: #FFF;
 }
 .center .content .phone{
-    margin: 10px 0;
+  margin: 10px 0;
 }
 .center .content .msg{
-    margin-top: 10px;
+  margin-top: 10px;
 }
 .right form input, .right form textarea{
-    width: 100%;
-    font-size: 17px;
-    background: #efe7e7;
-    padding-left: 10px;
-    border: 1px solid #fff7f7;
+  width: 100%;
+  font-size: 17px;
+  background: #efe7e7;
+  padding-left: 10px;
+  border: 1px solid #fff7f7;
 }
 .right form input{
-    height: 35px;
+  height: 35px;
 }
 .right form input:focus,
 .right form textarea:focus{
-    outline-color: #efb116;
+  outline-color: #efb116;
 }
 .right form .text{
-    font-size: 17px;
-    margin-bottom: 2px;
-    color: #FFF;
+  font-size: 17px;
+  margin-bottom: 2px;
+  color: #FFF;
 }
 .right form .btn{
-    margin-top: 10px;
+  margin-top: 10px;
 }
 .right form .btn button{
-    height: 40px;
-    width: 100%;
-    background: #f1c043;
-    font-size: 17px;
-    font-weight: 500;
-    cursor: pointer;
-    transition: .3s;
+  height: 40px;
+  width: 100%;
+  background: #f1c043;
+  font-size: 17px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: .3s;
 }
 .right form .btn button:hover{
-    background: #efb116;
+  background: #efb116;
 }
 .bottom .center{
-    padding: 5px;
-    font-size: 15px;
-    background: #9B7ABB;
-    text-align: center;
+  padding: 5px;
+  font-size: 15px;
+  background: #9b7abb;;
+  text-align: center;
 }
 .bottom .center span{
-    color: #f1c043;
+  color: #f1c043;
 }
 .bottom .center a{
-    color: #efb116;
-    text-decoration: none;
+  color: #FFF2BC;
+  text-decoration: none;
 }
 @media screen and (max-width: 90px){
-    footer{
-        position: fixed;
-        bottom: 0px;
-    }
-    .main-content{
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
-    .main-content .box{
-        margin: 5px 0;
-    }
+  footer{
+      position: fixed;
+      bottom: 0px;
+  }
+  .main-content{
+      flex-wrap: wrap;
+      flex-direction: column;
+  }
+  .main-content .box{
+      margin: 5px 0;
+  }
 }
