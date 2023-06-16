@@ -31,6 +31,30 @@
   /* Header */
   /* _____________________________________________________________________________ */
   
+  @font-face {
+    font-family:'Oceanwide';
+    src: url('fonts/California Type Foundry - Oceanwide-Semibold.ttf') format('truetype'), url('fonts/California Type Foundry - Oceanwide-Semibold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family:'Oceanwide2';
+    src: url('fonts/California Type Foundry - Oceanwide-SemiboldOblique.ttf') format('truetype'), url('fonts/California Type Foundry - Oceanwide-SemiboldOblique.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Oceanwide';
+  
+  }
+  
   header {
     display: flex;
     justify-content: space-between;
@@ -39,6 +63,7 @@
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
     background: #9B7ABB;
+    height: auto;
   }
   
   h3 {
@@ -122,6 +147,29 @@
   
   .iconify.iconify--gridicons:hover {
     color: #FFF !important;
+  }
+  
+  /* Responsividade */
+  
+  @media (max-width: 768px) {
+    .logo img {
+      width: 60px;
+      padding-bottom: 20px;
+    }
+  
+    header {
+      flex-direction: column;
+    }
+  
+    #MenuItems {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 10px;
+    }
+  
+    .login {
+      margin-top: 10px;
+    }
   }
 
 /* Textos */
