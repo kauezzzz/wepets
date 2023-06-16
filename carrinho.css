@@ -20,20 +20,6 @@
     font-family: 'Oceanwide';
   }
   
-  body > header {
-    font-family: 'Oceanwide';
-    background: #020101;
-    color: white;
-    font-size: 24px;
-    padding: 20px 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  
   body > main {
     background: #5D0A90;
     padding: 0 30px 30px;
@@ -238,7 +224,7 @@
     font-family: 'Oceanwide';
   }
   
-  aside .box footer {
+  aside .box footer .pagar {
     padding: 15px 20px;
     background: #ddd;
     font-size: 18px;

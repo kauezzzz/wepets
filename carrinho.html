@@ -6,12 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Carrinho de Compras</title>
     <link rel="stylesheet" href="carrinho.css" />
+    <link rel="stylesheet" href="header.css">
+    
     <link rel="shortcut icon" href="Imagens/logomarca sem texto.png" type="image/x-icon">
+      <!-- Link para a lupa -->
+  <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"/>
   </head>
   <body>
+    <!-- ___________________________ -->
+    <!-- header -->
+<header>
+    <div class="logo">
+      <a href="index.html">
+        <img src="sprint/logomarca.png" alt="logo">
+      </a>
+    </div>
+    <div class="search">
+      <input type="text" placeholder="Pesquisar...">
+      <span class="iconify" data-icon="iconamoon:search-bold" style="color: white;" data-width="22"></span>
+    </div>
+  
+    <nav>
+      <ul id="MenuItems">
+        <li><a href="isabelle.html">produtos</a></li>
+        <li><a href="sobre.html">sobre</a></li>
+        <li><a href="Login.html">login</a></li>
+      </ul>
+    </nav>
+    
+    <div class="login">
+      <a href=""><span class="iconify" data-icon="gridicons:user" style="color: #f1c043;" data-width="42"></span></a>
+      <a href=""><span class="iconify" data-icon="mdi:cart-outline" style="color: #f1c043;" data-width="42"></span></a>
+    </div>
+    <div class="carrinho">
+    </div>
+  
+  </header>
+  
+  <main>
+  <div class="small-container"> <br> <br>
     <!-- ______________________ -->
     <!-- Carrinho de compras -->
     <main>
@@ -112,7 +148,7 @@
                 </button>
               </div>
             </div>
-            <footer>
+            <footer class="pagar">
               <span>Total</span>
               <span>R$ 418</span>
             </footer>
@@ -120,6 +156,8 @@
 
           <button>Finalizar Compra</button>
         </aside>
+        
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
       </div>
 
     </main>
