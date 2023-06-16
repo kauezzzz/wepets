@@ -5,10 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>wepets | detalhes do produto</title>
+    <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="styledetalhesdoproduto.css">
      <!-- Link para a lupa -->
   <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
 
 </head>
 <body>
@@ -44,37 +49,39 @@
             <img src="images/estrelas.png" alt="">
         </div>
 
-        <!-- container do produto detalhado -->
-        <div class="detalhe">
-            <div class="destaq">
-                <img src="sprint/ração.png" width="100%" class="rac">
-            </div>
-            <div class="informações-prod">
-            
-                <h2>Ração cachorro Pedgree raças <br>pequenas 3Kg</h2>
-                <p>Sobre este item: <br>
-                    - Ração Premium 100% completa e balanceada para cães adultos... <br>
-                    - Proteína de alta qualidade para ajudar seu metabolismo mais acelerado.<br>
-                    - Com Ômega 6 para pele e pelo saudáveis de seu cachorro.<br>
-                    -Sem corantes artificiais<br>
-                    -Com fibras para ótima digestão e fezes firmes fáceis de limpar<br>
-                    -Vitaminas e minerais que contribuem para manter o pet forte e saudável<br>
-                </p>
-
-                <h2 class="tamanho">Tamanho:</h2>
-                <div class="promo">
-                <img src="images/promo1.png" alt="">
-                <img src="images/promo2.png" alt="">
-                <img src="images/promo3.png" alt="">
-                </div>
-                <br>
-            <div class="precos">
-                <h4>R$:53,00</h4>
-                <h4>R$:158,00</h4>
-                <h4>R$:300,00</h4>
-            </div>
-
-              <a href="carrinho.html" class="carrinho">
+          <div class="avaliacoes">
+              <p>Avaliações:</p>
+              <img src="images/estrelas.png" alt="">
+          </div>
+          <!-- container do produto detalhado -->
+          <div class="detalhe">
+              <div class="destaq">
+                  <img src="sprint/ração.png" width="100%" class="racao">
+              </div>
+              <div class="informações-prod">
+          
+                  <h2>Ração cachorro Pedgree raças <br>pequenas 3Kg</h2>
+                  <p>Sobre este item: <br>
+                      - Ração Premium 100% completa e balanceada para cães adultos... <br>
+                      - Proteína de alta qualidade para ajudar seu metabolismo mais acelerado.<br>
+                      - Com Ômega 6 para pele e pelo saudáveis de seu cachorro.<br>
+                      -Sem corantes artificiais<br>
+                      -Com fibras para ótima digestão e fezes firmes fáceis de limpar<br>
+                      -Vitaminas e minerais que contribuem para manter o pet forte e saudável<br>
+                  </p>
+                  <h2 class="tamanho">Tamanho:</h2>
+                  <div class="promo">
+                  <img src="images/promo1.png" alt="">
+                  <img src="images/promo2.png" alt="">
+                  <img src="images/promo3.png" alt="">
+                  </div>
+                  <br>
+              <div class="precos">
+                  <h4>R$:53,00</h4>
+                  <h4>R$:158,00</h4>
+                  <h4>R$:300,00</h4>
+              </div>
+              <a href="" class="carrinho">
                 <h3>Adicionar ao carrinho</h3>
                 <span class="iconify" data-icon="mdi:cart-plus" style="color: white;" data-width="52"></span>
               </a>
@@ -83,6 +90,69 @@
             </div>
         </div>
     </section>
+    <footer>
+      <div class="main-content">
+        <div class="left box">
+          <h2> Sobre nós</h2>
+          <div class="content">
+            <p>Somos uma empresa que trabalha com o melhor para seu pet!</p>
+  
+               <div class="icon">
+          <img src="images/logomarca.png" alt="">
+  
+              <a href="instagram.com"><span class="iconify" data-icon="logos:instagram-icon" style="color: black;" data-width="40"></span></a>
+              <a href=""><span class="iconify" data-icon="bxl:facebook-circle" style="color: rgb(0, 0, 0);" data-width="40"></span></a>
+              </div>
+            
+          </div>
+        </div><!--left box-->
+        <div class="center box">
+          <h2>Endereço</h2>
+          <div class="content">
+            <div class="place">
+                          <span class="iconify" data-icon="streamline:travel-map-location-pin-navigation-map-maps-pin-gps-location" style="color: black;" data-width="20"></span>
+              <span class="text">Av. Santos Dumont, 300</span>
+                          
+            </div>
+  
+            <div class="phone">
+                          <span class="iconify" data-icon="gridicons:phone" style="color: black;" data-width="20"></span>
+              <span class="text">+55 11 4002-8922</span>
+            </div>
+  
+            <div class="email">
+                          <span class="iconify" data-icon="mdi:gmail" style="color: black;" data-width="20"></span>
+              <span class="text">wepetscontact@gmail.com</span>
+            </div>
+          </div>
+        </div>
+        <div class="right box">
+          <h2>Contato</h2>
+          <div class="content">
+            <form action="#">
+              <div class="email">
+                <div class="text">Email *</div>
+                <input type="email" required>
+              </div>
+              <div class="msg">
+                <div class="text">Mensagem *</div>
+                <textarea rows="2" cols="25" required></textarea>
+              </div>
+              <div class="btn">
+                <button type="submit">Enviar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div><!--main-content-->
+      <div class="bottom">
+        <div class="center">
+          <span class="credit">Criado por <a href="#">wepets</a></span>
+          <span class="far fa-copyright">2023 wepets copyright</span>
+        </div>
+      </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
     
 </body>
