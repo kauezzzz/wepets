@@ -106,7 +106,7 @@ input {
   align-items: center;
 }
 
-.iconify.iconify--gridicons:hover {
+.iconify.iconify--gridicons:hover, .iconify.iconify--mdi:hover {
   color: #FFF !important;
 }
 
@@ -128,6 +128,12 @@ input {
 
   .login {
     margin-top: 10px;
+  }
+  .carrinho {
+    margin-top: 10px;
+  }
+  .carrinho a:hover {
+    color: #FFF;
   }
 }
 
