@@ -265,14 +265,14 @@ span{
 }
 
 /* footer */
-/* footer{
+footer{
   position: relative;
   bottom: 0px;
   width: 100%;
   background: #9b7abb;
 }
 
-img{
+.footerimg{
   height: 120px;
   width: 120px;
   margin-top: 40px;
@@ -297,10 +297,12 @@ img{
   font-weight: 600;
   text-transform: uppercase;
   color: #FFF;
+  margin-top: 20px
 }
 .box .content{
   margin: 20px 0 0 0;
   position: relative;
+  margin-top: 20px
 }
 .box .content:after{
   position: absolute;
@@ -309,6 +311,7 @@ img{
   height: 2px;
   background: #f1c043;
   top: -10px;
+  /* margin-top: 20px */
 }
 .box .content:before{
   position: absolute;
@@ -317,6 +320,7 @@ img{
   width: 100%;
   background:#f1c043;
   top: -10px;
+  /* margin-top: 20px */
 }
 .left .content .social{
   margin: 20px 0 0 0;
@@ -426,4 +430,4 @@ img{
   .main-content .box{
       margin: 5px 0;
   }
-} */
+}
