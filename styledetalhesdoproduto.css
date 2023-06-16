@@ -208,8 +208,9 @@ section {
     display: flex;
     justify-content: space-around;
 }
-.rac {
-    width: 50%;
+.racao {
+    width: 300px;
+    height: 350px;
 
 }
 h2 {
