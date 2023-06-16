@@ -20,10 +20,10 @@
 }
 body {
     font-family: 'Oceanwide';
-    background-color: #5D0A90;
+    color: ;
   }
 
-header {
+  header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,12 +32,12 @@ header {
     border-bottom-left-radius: 15px;
     background: #9B7ABB;
   }
-
+  
   h3 {
     margin-top: 10px;
     font-size: 20px;
   }
-
+  
   .logo img{
     width: 80px;
   }
@@ -112,7 +112,7 @@ header {
     align-items: center;
   }
   
-  .iconify.iconify--gridicons:hover {
+  .iconify.iconify--gridicons:hover, .iconify.iconify--mdi:hover {
     color: #FFF !important;
   }
   
