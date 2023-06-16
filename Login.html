@@ -32,7 +32,7 @@
 
                 <div class="_or">ou</div>
 
-                <form action="" class="the-form">
+                <form action="" class="the-form" id="myForm">
 
                     <label for="email">Email</label>
                     <input type="email" name="email" id="email" placeholder="Insira o seu email:" required>
@@ -44,6 +44,14 @@
                     <input class="input" type="submit">
 
                 </form>
+                <script>
+                    document.addEventListener("DOMContentLoaded", function() {
+                     document.getElementById("myForm").addEventListener("submit", function(event) {
+                      event.preventDefault(); // Impede o envio padrão do formulário
+                      window.location.href = "index.html"; //Redireciona para a página
+                     });
+                     });
+                </script>
 
             </div><!-- FORM BODY-->
 
