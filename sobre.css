@@ -82,6 +82,7 @@ h3{
 
 a {
   list-style: none;
+  padding: 10px;
 }
 ol { 
   counter-reset: item;
@@ -144,11 +145,13 @@ body {
 .sobre {
     color: white;
     font-size: 20px;
+    padding: 10px;
 }
 
 .loja {
     color: #F1C043;
     font-size: 18px;
+    padding: 10px;
 }
 
 .contato {
